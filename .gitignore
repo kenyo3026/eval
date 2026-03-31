@@ -1,0 +1,59 @@
+# .cursor
+.cursor/
+
+# .DS_Store
+.DS_Store
+
+# .python-version
+.python-version
+
+# __pycache__
+__pycache__
+
+# uv.lock
+uv.lock
+
+# jupyter
+*.ipynb
+
+# Python package development
+*.egg-info/
+build/
+dist/
+*.egg
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# directories
+artifacts/*
+checkpoints/*
+configs/*
+logs/*
+materials/*
+examples/*
+outputs/*
+scripts/
+stories/
+vendor/
+**/reports/*
+
+# test files
+test_*.py
+!src/*/tools/tools/tests/test_*.py
+!src/*/tests/test_*.py
+
+# *.json
+*.json
+
+# TODO (root directory only)
+/TODO.md
+
+# makefile
+makefile
+
+# .*
+.venv
+.deepeval
